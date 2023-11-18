@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Invest</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="txt_menu_assessoria">Assessoria</string>
+    <string name="txt_menu_noticia">Noticias</string>
+    <string name="txt_menu_home">Home</string>
+    <string name="txt_menu_bolsa">Bolsa</string>
+    <string name="txt_menu_vitrine">Vitrine</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_assessoria">Assessoria</string>
+    <string name="title_bolsa">Bolsa</string>
+    <string name="title_home">Home</string>
+    <string name="title_noticia">Noticia</string>
+    <string name="title_vitrine">Vitrine</string>
+</resources>

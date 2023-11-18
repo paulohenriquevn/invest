@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment2">
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.github.paulohenriquevn.invest.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/assessoriaFragment2"
+        android:name="com.github.paulohenriquevn.invest.AssessoriaFragment"
+        android:label="fragment_assessoria"
+        tools:layout="@layout/fragment_assessoria" />
+    <fragment
+        android:id="@+id/bolsaFragment2"
+        android:name="com.github.paulohenriquevn.invest.BolsaFragment"
+        android:label="fragment_bolsa"
+        tools:layout="@layout/fragment_bolsa" />
+    <fragment
+        android:id="@+id/noticiaFragment2"
+        android:name="com.github.paulohenriquevn.invest.NoticiaFragment"
+        android:label="fragment_noticia"
+        tools:layout="@layout/fragment_noticia" />
+    <fragment
+        android:id="@+id/vitrineFragment2"
+        android:name="com.github.paulohenriquevn.invest.VitrineFragment"
+        android:label="fragment_vitrine"
+        tools:layout="@layout/fragment_vitrine" />
+</navigation>
